@@ -1,0 +1,18 @@
+public class Logicaloperator {
+    public static void main(String[] args) {
+        int p = 15, q = 78, r = 89;
+
+        // && operator
+        System.out.println((p < q) && (p < r)); //True
+        System.out.println((p > q && (p < q))); //False
+
+        // || operator
+        System.out.println((r < q) || (p < q)); //True
+        System.out.println((p > q) || (q > r )); //False
+        System.out.println((p < q) || (q < r) ); //True
+
+        // ! operator
+        System.out.println(!(p == q)); //True
+        System.out.println(!(p < q)); //False
+    }
+}
